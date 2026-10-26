@@ -1,0 +1,21 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/dist/
+
+# Runtime files
+backend/uploads/
+backend/logs/
+
+# Local archives and backups
+*.zip
+*.rar
